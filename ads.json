@@ -1,4 +1,14 @@
-{
-  "id": 4,
-  "content": "<div style=\"width:100px;height:50px;border:1px solid #ccc;position:relative\"><img src=\"https://via.placeholder.com/100x50\" alt=\"Advertisement\" style=\"width:100%;height:100%;object-fit:cover\"><div style=\"position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;background:rgba(0,0,0,.5)\"><h2>Test Ad</h2><p>This is a test ad. Customize this area for your product or service.</p><a href=\"https://www.example.com\" style=\"padding:5px 10px;background-color:#4caf50;color:#fff;text-decoration:none;border-radius:5px\">Learn More</a></div></div>"
-}
+[
+  {
+    "id": 1,
+    "content": "<div style=\"width:100px;height:50px;border:1px solid #ccc;position:relative\"><img src=\"https://via.placeholder.com/100x50\" alt=\"Advertisement\" style=\"width:100%;height:100%;object-fit:cover\"><div style=\"position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;background:rgba(0,0,0,.5)\"><h2>Test Ad</h2><p>This is a test ad. Customize this area for your product or service.</p><a href=\"https://www.example.com\" style=\"padding:5px 10px;background-color:#4caf50;color:#fff;text-decoration:none;border-radius:5px\">Learn More</a></div></div>"
+  },
+  {
+    "id": 2,
+    "content": "<div style=\"width:100px;height:50px;border:1px solid #ccc;position:relative\"><img src=\"https://via.placeholder.com/100x50\" alt=\"Advertisement\" style=\"width:100%;height:100%;object-fit:cover\"><div style=\"position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;background:rgba(0,0,0,.5)\"><h2>Test Ad</h2><p>This is a test ad. Customize this area for your product or service.</p><a href=\"https://www.example.com\" style=\"padding:5px 10px;background-color:#4caf50;color:#fff;text-decoration:none;border-radius:5px\">Learn More</a></div></div>"
+  },
+  {
+    "id": 3,
+    "content": "<div style=\"width:100px;height:50px;border:1px solid #ccc;position:relative\"><img src=\"https://via.placeholder.com/100x50\" alt=\"Advertisement\" style=\"width:100%;height:100%;object-fit:cover\"><div style=\"position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;background:rgba(0,0,0,.5)\"><h2>Test Ad</h2><p>This is a test ad. Customize this area for your product or service.</p><a href=\"https://www.example.com\" style=\"padding:5px 10px;background-color:#4caf50;color:#fff;text-decoration:none;border-radius:5px\">Learn More</a></div></div>"
+  }
+]
