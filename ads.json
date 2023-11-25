@@ -1,10 +1,10 @@
-[{"id":1,"content":`<div style="width: 300px; height: 250px; border: 1px solid #ccc; position: relative;">
+[{"id":1,"content":"<div style=\"width: 300px; height: 250px; border: 1px solid #ccc; position: relative;\">
         <!-- Ad Image -->
-        <img src="https://via.placeholder.com/300x250" alt="Advertisement" style="width: 100%; height: 100%; object-fit: cover;">
+        <img src=\"https://via.placeholder.com/300x250\" alt=\"Advertisement\" style=\"width: 100%; height: 100%; object-fit: cover;\">
 
         <!-- Ad Content -->
-        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #fff; text-align: center; background: rgba(0, 0, 0, 0.5);">
+        <div style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #fff; text-align: center; background: rgba(0, 0, 0, 0.5);\">
             <h2>Your Ad Headline</h2>
             <p>Your ad description goes here. Customize this area to showcase your product or service.</p>
-            <a href="https://www.example.com" style="padding: 10px 20px; background-color: #4CAF50; color: #fff; text-decoration: none; border-radius: 5px;">Learn More</a>
-        </div>`},{"id":2,"content":""},,{"id":3,"content":""}]
+            <a href=\"https://www.example.com\" style=\"padding: 10px 20px; background-color: #4CAF50; color: #fff; text-decoration: none; border-radius: 5px;\">Learn More</a>
+        </div>"},{"id":2,"content":""},,{"id":3,"content":""}]
