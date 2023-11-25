@@ -5,10 +5,10 @@
     },
     {
         "id": 2,
-        "content": "<div style=\"width:300px;height:250px;border:1px solid #ccc;position:relative\"><img src=\"https://via.placeholder.com/300x250\" alt=\"Advertisement\" style=\"width:100%;height:100%;object-fit:cover\"><div style=\"position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;background:rgba(0,0,0,.5)\"><h2>Your Ad Headline</h2><p>Your ad description goes here. Customize this area to showcase your product or service.</p><a href=\"https://www.example.com\" style=\"padding:10px 20px;background-color:#4caf50;color:#fff;text-decoration:none;border-radius:5px\">Learn More</a></div></div>"
+        "content": "<div class=\"mb-2\" data-freestar-ad=\"__336x280 __300x250\" id=\"codebeautify_mrec_atf\" name=\"codebeautify_mrec_atf\" data-google-query-id=\"CNup0Z7_34IDFV6QJwIdx24DSQ\" align=\"center\"><div id=\"google_ads_iframe_/15184186,22816883012/codebeautify_mrec_atf_0__container__\" style=\"border: 0pt none;\"><iframe id=\"google_ads_iframe_/15184186,22816883012/codebeautify_mrec_atf_0\" name=\"google_ads_iframe_/15184186,22816883012/codebeautify_mrec_atf_0\" title=\"3rd party ad content\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" style=\"border: 0px none; vertical-align: bottom;\" role=\"region\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"4\" data-load-complete=\"true\" width=\"250\" height=\"250\" frameborder=\"0\"></iframe></div></div>"
     },
     {
         "id": 3,
-        "content": "<div style=\"width:300px;height:250px;border:1px solid #ccc;position:relative\"><img src=\"https://via.placeholder.com/300x250\" alt=\"Advertisement\" style=\"width:100%;height:100%;object-fit:cover\"><div style=\"position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;background:rgba(0,0,0,.5)\"><h2>Your Ad Headline</h2><p>Your ad description goes here. Customize this area to showcase your product or service.</p><a href=\"https://www.example.com\" style=\"padding:10px 20px;background-color:#4caf50;color:#fff;text-decoration:none;border-radius:5px\">Learn More</a></div></div>"
+        "content": ""
     }
 ]
