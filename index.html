@@ -1,1 +1,44 @@
-Hi
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    /* Add this CSS to your stylesheet or directly to your HTML */
+
+    #ads {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 85px;
+      background-color: #2f303a;
+      padding: 0.5px;
+      box-sizing: border-box;
+      overflow: hidden; /* Ensure ads stay within the container */
+    }
+    
+    .ad-item {
+      box-sizing: border-box;
+      flex: 1;
+      height: 100%;
+      padding: 1px;
+      background-color: #121212;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0px;
+      overflow: hidden; /* Ensure content stays within the ad box */
+    }
+    
+    .ad-item img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain; /* Ensure the image fits within the container */
+    }
+  </style>
+  </head>
+  <body>
+     <div id="ads"><div class="ad-item"></div><div class="ad-item"></div><div class="ad-item"></div></div>
+  </body>
+</html>
