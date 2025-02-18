@@ -1,54 +1,46 @@
+{"scope":["ZohoInvoice.contacts.ALL"],"expiry_time":1739875180551,"client_id":"1000.PIARJH5YYHEZBV88PI6GI6FO39P88M","client_secret":"ecdc3301ad59e209a9132c0c44e4dba35c83dc2510","code":"1000.1bc2bb88aed55a74f9f7c981b718e5aa.f2a580303660174321c91551253681e9","grant_type":"authorization_code"}
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Zoho Self Client Token Fetch</title>
-</head>
-<body>
-  <button id="fetchTokenBtn">Fetch Tokens</button>
-  <script>
-    // Replace these values with your actual credentials from the Zoho API Console.
-    const clientId = '1000.PIARJH5YYHEZBV88PI6GI6FO39P88M';
-    const clientSecret = 'ecdc3301ad59e209a9132c0c44e4dba35c83dc2510';
-    // The grant token you manually generate from the Zoho Self Client in the API Console.
-    const grantToken = '1000.1bc2bb88aed55a74f9f7c981b718e5aa.f2a580303660174321c91551253681e9';
-
-    // Optional: Some Self Client setups require a dummy redirect URI. 
-    // If you configured one, uncomment and set it accordingly.
-    // const redirectUri = 'https://dummy.redirect.uri';
-
-    async function fetchTokens() {
-      const tokenUrl = 'https://accounts.zoho.com/oauth/v2/token';
-      const params = new URLSearchParams();
-      params.append('code', grantToken);
-      params.append('client_id', clientId);
-      params.append('client_secret', clientSecret);
-      params.append('grant_type', 'authorization_code');
-      
-      // Uncomment the following line if your self client setup requires a redirect URI.
-      // params.append('redirect_uri', redirectUri);
-
-      try {
-        const response = await fetch(tokenUrl, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-          },
-          body: params.toString()
-        });
-        const data = await response.json();
-        if (data.access_token) {
-          console.log('Access Token:', data.access_token);
-          console.log('Refresh Token:', data.refresh_token);
-        } else {
-          console.error('Error obtaining tokens:', data);
-        }
-      } catch (error) {
-        console.error('Token request failed:', error);
-      }
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    /* Add this CSS to your stylesheet or directly to your HTML */
+    html {
+      background-color: black;
     }
-
-    document.getElementById('fetchTokenBtn').addEventListener('click', fetchTokens);
-  </script>
-</body>
+    #ads {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 85px;
+      background-color: #2f303a;
+      padding: 0.5px;
+      box-sizing: border-box;
+      overflow: hidden; /* Ensure ads stay within the container */
+    }
+    
+    .ad-item {
+      box-sizing: border-box;
+      flex: 1;
+      height: 100%;
+      padding: 1px;
+      background-color: #121212;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0px;
+      overflow: hidden; /* Ensure content stays within the ad box */
+    }
+    
+    .ad-item img {
+      width: 100%;  
+    }
+  </style>
+  </head>
+  <body>
+     <div id="ads"><div class="ad-item"><img src="/beautifythecss.png"></div><div class="ad-item"><img src="/beautifythehtml.png"></div><div class="ad-item"><img src="/beautifythejs.png"></div></div>
+  </body>
 </html>
